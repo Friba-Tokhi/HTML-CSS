@@ -15,7 +15,7 @@
 	p{
 		padding: 10px;
 	}
-	}
+	
 	.container{
 		float: left;
 	}
@@ -48,7 +48,7 @@
 
 @media only screen and (max-width: 991px) and (min-width: 768px){
 
-	.sec{
+	#sec-1, #sec-2{
 		background-color: gray;
 		border: 1px solid black;
 		float: left;
@@ -56,19 +56,27 @@
 	    margin: 15px;
 	    box-sizing: border-box;
 	}
-
-}
-
-@media only screen and(max-width: 767;)
-	
-	.sec{
+	#sec-3{
 		background-color: gray;
 		border: 1px solid black;
 		float: left;
-		width: 96%;
+		width: 93%;
 	    margin: 15px;
 	    box-sizing: border-box;
 	}
 
 }
+@media screen and (max-width: 767px){
+	
+	.sec{
+		background-color: gray;
+		border: 1px solid black;
+		float: left;
+		width: 90%;
+	    margin: 15px;
+	     box-sizing: border-box;
+	}
+
+}
+
 
